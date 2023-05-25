@@ -229,10 +229,13 @@ button:focus {
 /* FOOTER */
 
 footer {
-    background: #262e23;
+    background: #242c22;
     margin-top: 0;
     padding: 1em;
     text-align: center;
-    opacity: 70%;
     
+}
+
+.copyright {
+    opacity: 70%
 }
