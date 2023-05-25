@@ -6,11 +6,14 @@ img {
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1rem;
-    color: #161515;
+    color: #C7C7BB;
     margin: 0;
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* HEADER */
 
@@ -20,13 +23,26 @@ body {
 
 
 nav {
-    background:  #83A84C;
+    background: #44543d;
     font-size: 1.5rem;
     font-weight: bolder;
-
+    margin-top: 0;
+    padding: 1em;
 }
 
 .website-title {
-    
+    font-size: 2rem;
 }
 
+.navigation-link {
+    color: #C7C7BB
+}
+
+a:hover,
+a:focus {
+    color: #9cb863;
+}
+
+.current-page {
+    text-decoration: underline;
+}
