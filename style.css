@@ -37,7 +37,7 @@ header {
 
 
 nav {
-    background: #44543d;
+    background: #4b5d42;
     font-size: 1.5rem;
     font-weight: bolder;
     margin-top: 0;
@@ -129,4 +129,22 @@ h2 {
     font-size: 1.25rem;
     font-weight: bolder;
     margin-top: 0;
+}
+
+/* MAIN SECTION TWO */
+
+.main-section-two {
+    background: #c4cfbf;
+    color: #44543d;
+    padding: 1em;
+    text-align: center;
+}
+
+/* MAIN SECTION THREE */
+
+.main-section-three {
+    background: #44543d;
+    margin-top: 0;
+    padding: 1em;
+    text-align: center;
 }
