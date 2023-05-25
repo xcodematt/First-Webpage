@@ -1,6 +1,7 @@
 img {
-    width: 200px;
+    width: 100%;
     height: auto;
+    display: block;
 }
 
 body {
@@ -28,7 +29,9 @@ a {
 
 /* HEADER */
 
-
+header {
+    margin: 0;
+}
 
 /* NAVIGATION */
 
@@ -68,11 +71,14 @@ a:focus,
     background: #c4cfbf;
     color: #44543d;
     padding: 1em;
+    margin: 0;
 }
 
 .header-image {
     width: 80%;
     height: auto;
+    border-radius: 10px;
+
 }
 
 .header-paragraph {
@@ -88,4 +94,37 @@ h1 {
     margin: 1em;
     display:block;
   
+}
+
+/* MAIN SECTION ONE */
+
+.main-section-one {
+    background: #44543d;
+    margin-top: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.images-main {
+    width: 50%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.main-titles {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    margin-top: 0;
 }
