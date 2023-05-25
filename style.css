@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1rem;
     color: #ffffff;
     margin: 0;
     text-align: center;
@@ -17,6 +16,29 @@ img {
     width: 100%;
     height: auto;
     display: block;
+}
+
+/* FONT SIZES */
+
+body {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+nav {
+    font-size: 1.5rem;
+
+}
+
+.main-titles {
+    font-size: 1.25rem;
 }
 
 
@@ -47,7 +69,6 @@ header {
 
 nav {
     background: #44543d;
-    font-size: 1.5rem;
     font-weight: bolder;
     margin-top: 0;
     padding: 1em;
@@ -95,7 +116,7 @@ h1 {
 .btn {
     display: block;
     padding: 1em 2em;
-    background: #44543d;
+    background-image: linear-gradient(to right, rgb(77, 113, 53) , rgb(33, 58, 26) );
     margin: 2em;
     width: 50%;
     border-radius: 10px;
@@ -103,7 +124,12 @@ h1 {
 
 .btn:hover,
 .btn:focus {
-    background: #58744dca;
+    background-image: linear-gradient(to left, rgb(77, 113, 53) , rgb(33, 58, 26) );
+}
+
+.header-main a:hover,
+.header-main a:focus {
+    color: white;
 }
 
 /* ===========================
@@ -151,7 +177,6 @@ h1 {
 
 
 .main-titles {
-    font-size: 1.25rem;
     font-weight: bolder;
     margin-top: 0;
 }
@@ -170,6 +195,10 @@ h1 {
 .main-author {
     width: 80%;
     margin: 0 auto;
+}
+
+.main-testimonial {
+    margin-bottom: 1em;
 }
 
 /* MAIN SECTION THREE */
