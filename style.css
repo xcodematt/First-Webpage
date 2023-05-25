@@ -1,0 +1,32 @@
+img {
+    width: 200px;
+    height: auto;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    color: #161515;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* HEADER */
+
+
+
+/* NAVIGATION */
+
+
+nav {
+    background:  #83A84C;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+
+.website-title {
+    
+}
+
