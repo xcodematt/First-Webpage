@@ -19,6 +19,7 @@ img {
     display: block;
 }
 
+
 /* LINKS */
 
 a {
@@ -183,10 +184,13 @@ h1 {
 }
 
 
-.width {
+.section-three-title,
+.section-three-paragraph {
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 1em;
 }
+
 
 form {
     display: flex;
