@@ -148,3 +148,21 @@ h2 {
     padding: 1em;
     text-align: center;
 }
+
+.main-btn {
+    padding: 1em 1em;
+    margin: 1em;
+    display:block;
+    background: #c4cfbf;
+    color: #44543d;
+}
+
+/* FOOTER */
+
+footer {
+    background: #262e23;
+    margin-top: 0;
+    padding: 1em;
+    text-align: center;
+    opacity: 70%;
+}
