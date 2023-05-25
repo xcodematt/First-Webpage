@@ -51,8 +51,7 @@ nav {
 
 a:hover,
 a:focus,
-button:hover,
-button:focus {
+{
     color: #9cb863;
 }
 
@@ -85,7 +84,8 @@ h1 {
 }
 
 .header-btn {
-    width: 50%;
-    margin: 2em;
-    padding: 1em;
+    padding: 1em 1em;
+    margin: 1em;
+    display:block;
+  
 }
