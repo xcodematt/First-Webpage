@@ -177,18 +177,54 @@ h2 {
     padding: 2em 1em;
 }
 
-.main-btn {
-    padding: 1em 1em;
-    margin: 1em;
-    display:block;
-    background: white;
-    color: #44543d;
-}
 
 .width {
     width: 80%;
     margin: 0 auto;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input {
+    margin: 1em;
+    padding: 1em 2em;
+    border: 0;
+    display: block;
+    background: white;
+    border-radius: 10px;
+    width: 50%;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+}
+
+button {
+    margin: 1em;
+    padding: 1em 2em;
+    border: 0;
+    display: block;
+    border-radius: 10px;
+    width: 50%;
+    background: rgb(166, 177, 153);
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    background-image: linear-gradient(to right, rgb(77, 113, 53) , rgb(33, 58, 26) );
+    cursor: pointer;
+
+}
+
+button:hover,
+button:focus {
+    background-image: linear-gradient(to left, rgb(77, 113, 53) , rgb(33, 58, 26) );
+}
+
+
 
 /* FOOTER */
 
@@ -198,4 +234,5 @@ footer {
     padding: 1em;
     text-align: center;
     opacity: 70%;
+    
 }
