@@ -282,6 +282,24 @@ h1 {
     margin-top: 0;
 }
 
+@media (min-device-width: 1165px) {
+    .main-boxes {
+        display: flex;
+    }
+
+    .main-box {
+        margin: 1em;
+
+    }
+    .images-main {
+        height: 100%;
+        max-width: 200px;
+        min-height: 100px;
+        min-width: 100px;
+        margin-bottom: 1em;
+    }
+}
+
 /* MAIN SECTION TWO */
 
 .main-section-two {
