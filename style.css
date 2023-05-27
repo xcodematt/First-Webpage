@@ -16,6 +16,7 @@ img {
     width: 100%;
     height: auto;
     display: block;
+    object-position: center;
 }
 
 /* FONT SIZES */
@@ -161,7 +162,8 @@ h1 {
 
 .header-image {
     width: 80%;
-    max-height: 300px;
+    min-height: 250px;
+    max-height: 400px;
     border-radius: 10px;
     object-fit: cover;
     object-position: center;
