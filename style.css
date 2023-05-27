@@ -100,7 +100,32 @@ nav {
 }
 
 @media (min-device-width:675px) {
+
+    .container-nav {
+        background: #44543d;
+        
+
+    }
     
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .navigation-links {
+        display: flex;
+        justify-content: right;
+    }
+
+    .navigation-link {
+        margin: 20px;
+    }
+
+    .website-title {
+        margin: 20px;
+    }
 }
 
 /* HEADER MAIN */
