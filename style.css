@@ -37,7 +37,7 @@ nav {
 
 }
 
-@media (min-device-width:675px) {
+@media (min-device-width:700px) {
     body {
         font-size: 1.25rem
     }
@@ -99,7 +99,7 @@ nav {
     text-decoration: underline;
 }
 
-@media (min-device-width:675px) {
+@media (min-device-width:700px) {
 
     .container-nav {
         background: #44543d;
@@ -112,6 +112,7 @@ nav {
         justify-content: space-between;
         margin: 0 auto;
         width: 80%;
+
     }
 
     .navigation-links {
@@ -121,10 +122,13 @@ nav {
 
     .navigation-link {
         margin: 10px;
+        text-align: right;
+        margin-right: 0;
     }
 
     .website-title {
         margin: 10px;
+        margin-left: 0;
     }
 }
 
@@ -186,7 +190,7 @@ h1 {
     color: white;
 }
 
-@media (min-device-width:675px) {
+@media (min-device-width:700px) {
 
     .header-main {
         flex-direction: row;
@@ -208,6 +212,7 @@ h1 {
     .header-image {
         width: 45%;
         max-height: 400px;
+        margin: 0;
     }
 
     .btn {
@@ -218,6 +223,7 @@ h1 {
         margin-left: 0;
         width: 30%;
         border-radius: 10px;
+        min-width: 200px;
     }
    
     h1 {
