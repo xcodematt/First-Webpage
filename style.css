@@ -99,7 +99,7 @@ nav {
     text-decoration: underline;
 }
 
-@media (min-device-width:700px) {
+@media (min-device-width:1165px) {
 
     .container-nav {
         background: #44543d;
@@ -190,7 +190,7 @@ h1 {
     color: white;
 }
 
-@media (min-device-width:700px) {
+@media (min-device-width:1165px) {
 
     .header-main {
         flex-direction: row;
@@ -334,6 +334,12 @@ h1 {
 }
 /* MAIN SECTION THREE */
 
+
+.back-color {
+    background: #44543d;
+  
+}
+
 .main-section-three {
     background: #44543d;
     margin-top: 0;
@@ -341,12 +347,13 @@ h1 {
     text-align: center;
     margin: 0 auto;
     padding: 2em 1em;
+    width: 80%;
+
 }
 
 
 .section-three-title,
 .section-three-paragraph {
-    width: 80%;
     margin: 0 auto;
     margin-bottom: 1em;
 }
@@ -394,6 +401,31 @@ button:focus {
 }
 
 
+@media (min-device-width: 1165px) {
+    
+
+    .main-section-three {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    form { 
+        width: 55%;
+        align-items: flex-end;
+
+    }
+
+    input,
+    button {
+        width: 100%
+    }
+
+    .call-to-action {
+        width: 35%;
+        text-align: left;
+        margin-top: 3em;
+    }
+}
 
 /* FOOTER */
 
