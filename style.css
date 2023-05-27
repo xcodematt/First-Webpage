@@ -320,6 +320,18 @@ h1 {
     margin-bottom: 1em;
 }
 
+@media (min-device-width: 1165px) {
+    .main-section-two {
+        padding: 3em 1em;
+    }
+    .main-testimonial,
+.main-author {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1em;
+    
+}
+}
 /* MAIN SECTION THREE */
 
 .main-section-three {
