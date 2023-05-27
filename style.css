@@ -37,6 +37,24 @@ nav {
 
 }
 
+@media (min-device-width:675px) {
+    body {
+        font-size: 1.25rem
+    }
+
+    h1 {
+        font-size: 2.25rem
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    nav {
+        font-size: 1.75rem
+    }
+}
+
 .main-titles {
     font-size: 1.25rem;
 }
@@ -79,6 +97,10 @@ nav {
 
 .current-page {
     text-decoration: underline;
+}
+
+@media (min-device-width:675px) {
+    
 }
 
 /* HEADER MAIN */
